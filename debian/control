@@ -1,0 +1,16 @@
+Source: tcpbench
+Section: misc
+Priority: optional
+Maintainer: Tobias Heider <me@tobhe.de>
+Build-Depends: cmake, debhelper-compat (= 13), libevent-dev, libbsd-dev
+Standards-Version: 4.6.0
+Homepage: https://github.com/bluhm/tcpbench-portable
+Rules-Requires-Root: no
+
+Package: tcpbench
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: TCP/UDP benchmarking and measurement tool
+ tcpbench is a small tool that performs throughput benchmarking and
+ concurrent sampling of kernel network variables.

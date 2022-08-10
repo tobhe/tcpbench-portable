@@ -1,0 +1,5 @@
+tcpbench (1.01-1) unstable; urgency=medium
+
+  * Initial Release. Closes: #1016918 (ITP).
+
+ -- Tobias Heider <me@tobhe.de>  Wed, 10 Aug 2022 16:21:59 +0200
